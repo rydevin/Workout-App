@@ -1,27 +1,26 @@
-# 5-Day Gym Plan
+# 5-Day Gym Plan — Version 2
 
-A mobile-first workout tracker designed for GitHub Pages.
+Mobile-first workout tracker for GitHub Pages.
 
-## What it includes
-- 5-day workout plan
-- Legs + Back + Biceps / Chest + Shoulders + Triceps rotation
-- Weight, reps, and optional RIR logging
-- Previous-workout recall
-- Simple progression suggestions
-- Rest timer
-- 20-minute cardio timer
-- Workout history
-- Local storage only — no account or database required
-- Basic offline support via service worker
+## New in Version 2
+- **Start Workout mode** with one exercise at a time
+- Large next/previous exercise controls
+- Automatic rest timer after each completed set
+- Exercise-specific rest periods
+- Rest timer overlay with +30 sec / -30 sec / skip
+- Strength Progress screen based on logged working weights
+- Continues to support full-day editing, workout history, cardio timer, and local storage
 
 ## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload `index.html`, `manifest.webmanifest`, and `sw.js` to the repository root.
-3. In GitHub, go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`.
-6. Save.
-7. Open the GitHub Pages URL on your phone.
-8. On iPhone, use **Share → Add to Home Screen** for an app-like experience.
+Upload these files to the root of your GitHub repository:
 
-Your workout data is stored in your browser's local storage on that device.
+- `index.html`
+- `manifest.webmanifest`
+- `sw.js`
+
+If replacing Version 1, simply replace the existing files and commit the change.
+
+Then open your GitHub Pages URL on your phone. On iPhone, use **Share → Add to Home Screen**.
+
+## Storage note
+Workout history is stored in the browser on the device using local storage. Version 2 uses a new storage key, so it starts with a clean log during testing.
