@@ -1,26 +1,14 @@
-# 5-Day Gym Plan — Version 2
+# Gym Plan V3
 
-Mobile-first workout tracker for GitHub Pages.
+Version 3 adds:
+- Automatic set completion after weight/reps entry (RIR optional)
+- Automatic rest timer
+- Audible spoken countdown from 10 to 1 while the app is active
+- Timestamp-based rest/cardio timers that stay accurate when switching apps
+- Per-dumbbell weight tracking for dumbbell exercises
+- Rotating biceps/triceps finishers
+- Rotating core finishers before cardio
+- V2 data migration
+- Central exercise database structure for future exercise swapping
 
-## New in Version 2
-- **Start Workout mode** with one exercise at a time
-- Large next/previous exercise controls
-- Automatic rest timer after each completed set
-- Exercise-specific rest periods
-- Rest timer overlay with +30 sec / -30 sec / skip
-- Strength Progress screen based on logged working weights
-- Continues to support full-day editing, workout history, cardio timer, and local storage
-
-## Publish on GitHub Pages
-Upload these files to the root of your GitHub repository:
-
-- `index.html`
-- `manifest.webmanifest`
-- `sw.js`
-
-If replacing Version 1, simply replace the existing files and commit the change.
-
-Then open your GitHub Pages URL on your phone. On iPhone, use **Share → Add to Home Screen**.
-
-## Storage note
-Workout history is stored in the browser on the device using local storage. Version 2 uses a new storage key, so it starts with a clean log during testing.
+Replace the existing GitHub Pages files with these V3 files.
