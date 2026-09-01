@@ -1,5 +1,18 @@
-# Gym Plan — Version 4
+# Gym Plan — Version 4.1
 
-V4 includes: reworked rest countdown, visual/audio final 10 seconds, total workout timer, screen wake-lock request during Workout Mode, per-exercise rest controls, What's Next on Workout Mode cards, cleaner History with one completed workout per day/workout, and one-exercise saved-data correction from the main page.
+## Updates in this build
+- Adds one extra biceps movement on each Legs + Back + Biceps day.
+- Adds one extra triceps movement on each Chest + Shoulders + Triceps day.
+- Reorders workouts to alternate body parts more strategically while keeping priority lifts early.
+- Adds optional notes under each exercise.
+- Previous workout display now shows the last note for that exercise when available.
+- Louder countdown beeps and a clear spoken/visual GO cue when rest ends.
+- Keeps all V4 features: workout timer, wake lock, customizable rest, clean History, Workout Mode, finishers, core, cardio, and migration from earlier versions.
 
-Replace index.html, manifest.webmanifest, and sw.js in GitHub Pages. After deployment, close and reopen the home-screen app once so the new cache loads.
+## Deploy
+Replace these files in GitHub Pages:
+- index.html
+- manifest.webmanifest
+- sw.js
+
+After deploying, close and reopen the home-screen app once so the new cache loads.
