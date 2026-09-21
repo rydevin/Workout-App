@@ -1,12 +1,12 @@
-# Gym Plan V5
+# Gym Plan V6
 
-Changes:
-- History save reliability fix with post-save verification.
-- V4 history/drafts migrate into V5.
-- Optional exercise notes; previous notes display with previous weights/reps.
-- Completed-set control uses a clearer checkbox.
-- Louder final-10-second timer cues plus spoken/visual GO at zero.
-- Full master movement database added for future training-block Shuffle.
-- Smith Machine Hip Thrust excluded.
-- Lower-chest database includes decline presses, high-to-low cable fly variations, assisted chest dip, and decline machine press.
-- Current daily program remains fixed. Future Shuffle will create a reviewed multi-week block, not randomize each day.
+GitHub Pages update. Replace the existing site files with these files.
+
+## Changes
+- Prefills each exercise set with weight/reps from the most recent completed workout for that exact movement. Prefilled values are not marked complete until you actually complete the set.
+- Final set -> normal rest timer -> GO -> automatically advances to the next movement, unless you manually navigated elsewhere. Previous/Next remain available.
+- Louder Web Audio countdown, stronger final 3-second cues, triple GO alarm, speech and vibration where the browser supports them.
+- History save rewritten to snapshot every main/core movement and every set before deleting the draft. The app verifies the full record before clearing the workout draft.
+- History now shows movement/set counts and an expandable workout detail so you can immediately confirm the whole workout was saved.
+- Migrates V5/V4 and older local data into V6.
+- Exercise notes remain attached to the movement and appear in History/previous-workout data.
