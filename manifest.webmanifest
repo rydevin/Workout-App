@@ -1,9 +1,8 @@
 {
-  "name": "Gym Plan V6",
+  "name": "Gym Plan V7",
   "short_name": "Gym Plan",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#080808",
-  "theme_color": "#080808",
-  "icons": []
+  "theme_color": "#080808"
 }
