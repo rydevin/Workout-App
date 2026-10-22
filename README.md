@@ -1,1 +1,1 @@
-V8.1 emergency fix: restores app startup by removing invalid P() calls from default program initialization. Retains V8 Shuffle changes, preferences, history and storage key. Deploy all three web files. Test before workout.
+Gym Plan V8.2: Shuffle now draws from full allowed muscle-group pools, permits repeats when necessary, uses broader eligible alternatives for narrow subcategories, and reports a specific missing muscle category. Don't Use remains excluded. Keep browser data intact.\n
