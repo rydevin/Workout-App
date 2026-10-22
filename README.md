@@ -1,3 +1,1 @@
-# Gym Plan V7
-
-Adds Program management, Exercise Library preferences, and intelligent 5-day block Shuffle with preview before activation. Lower-chest movements are visible and eligible for generated blocks. V6 workout/history/timer/autofill features are retained.
+Gym Plan V8: intelligent exercise novelty weighting; strict Don’t Use exclusion for generated main/core/finishers and activation validation; shuffle summary; muscle group headers; next exercise and previous sets visible during final rest. V6 storage key retained for history preservation.
