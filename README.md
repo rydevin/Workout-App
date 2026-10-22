@@ -1,3 +1,1 @@
-# Gym Plan V7
-
-Adds Program management, Exercise Library preferences, and intelligent 5-day block Shuffle with preview before activation. Lower-chest movements are visible and eligible for generated blocks. V6 workout/history/timer/autofill features are retained.
+V8.1 emergency fix: restores app startup by removing invalid P() calls from default program initialization. Retains V8 Shuffle changes, preferences, history and storage key. Deploy all three web files. Test before workout.
