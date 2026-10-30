@@ -1,7 +1,9 @@
-Gym Plan V8.4
-- Exercise names link to YouTube from the 81-exercise catalog (1 specific video; 80 clearly identified YouTube searches).
-- New music-friendly spoken countdown uses bundled voice clips mixed through Web Audio rather than iOS speech synthesis.
-- Countdown selector allows music-friendly voice, beep-only, or original system voice.
-- Existing history key `ryanGymApp_v6` is unchanged; V8.3 Backup & Restore remains.
-- Included service worker and offline cached voice clips.
-IMPORTANT: Music playback behavior depends on iOS audio session policy; test with your music app. If interrupted, use Beep alerts only.
+# Gym Plan V8.6
+
+- Adds **Complete all sets** checkbox to every Workout Mode exercise card. It marks all sets completed with their existing weight/reps; uncheck to reopen all sets. Does not trigger a rest timer or auto-advance.
+- Adds an **All sets** checkbox to exercise cards in the main overview as well.
+- Removes RIR inputs and RIR targets from the user interface and stops writing RIR values to new history entries. Previously saved history remains unchanged.
+- Preserves V8.5 safety fix: no audio countdown; Don’t Use exclusion and Shuffle activation logic unchanged.
+- Retains Backup & Restore, video links and same localStorage key (`ryanGymApp_v6`).
+
+**Before updating:** Export a backup and verify it is in iCloud Drive. Do not delete the existing home-screen app.
